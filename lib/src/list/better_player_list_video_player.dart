@@ -69,6 +69,7 @@ class _BetterPlayerListVideoPlayerState
   void dispose() {
     _betterPlayerController!.dispose();
     _isDisposing = true;
+    print("BetterPlayerListVideoPlayer dispose");
     super.dispose();
   }
 
